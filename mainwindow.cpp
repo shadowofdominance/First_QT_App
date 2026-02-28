@@ -13,6 +13,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+//Reduced the repeated code and created this function in order to handle the calculations!
 void MainWindow::calculate(char op)
 {
     int FirstNumber = ui->LineEditFirst->text().toInt();

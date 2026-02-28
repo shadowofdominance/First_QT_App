@@ -28,6 +28,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    //Creating a function which can be used to calculate the result
     void calculate(char op);
 };
 #endif // MAINWINDOW_H
